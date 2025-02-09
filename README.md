@@ -2,6 +2,9 @@
 
 This Rust application checks the expiration date of TLS certificates for given URLs. It reads URLs from a file, connects to each via TLS, and provides a color-coded output based on certificate validity.
 
+![CertCheck Screenshot](CertCheck.png)
+
+
 ## Features
 - Reads a list of URLs from a file (`urls.txt`).
 - Connects securely to retrieve certificate expiration dates.
